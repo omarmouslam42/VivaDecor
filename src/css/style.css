@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.project-num::after{
+    content: "400+";
+    animation: projectNum 2s ;
+    -webkit-animation: projectNum 2s ;
+  }
+  @keyframes projectNum {
+  
+    0%{content: "10+";}
+    10%{content: "20+";}
+    20%{content: "50+";}
+    30%{content: "100+";}
+    40%{content: "160+";}
+    50%{content: "200+";}
+    60%{content: "250+";}
+    70%{content: "300+";}
+    80%{content: "340+";}
+    90%{content: "360+";}
+    100%{content: "400+";}
+  }
+
+
+ .Client-num::after{
+    content: "600+";
+    animation: clientNum 2s ;
+    -webkit-animation: clientNum 2s ;
+  }
+  @keyframes clientNum {
+  
+    0%{content: "0+";}
+    10%{content: "20+";}
+    20%{content: "100+";}
+    30%{content: "150+";}
+    40%{content: "200+";}
+    50%{content: "250+";}
+    60%{content: "300+";}
+    70%{content: "400+";}
+    80%{content: "500+";}
+    90%{content: "570+";}
+    100%{content: "600+";}
+  }
+  .Stylies-num::after{
+    content: "100+";
+    animation: styliesNum 2s ;
+    -webkit-animation: styliesNum 2s ;
+  }
+  @keyframes styliesNum {
+  
+    0%{content: "0+";}
+    10%{content: "10+";}
+    20%{content: "20+";}
+    30%{content: "30+";}
+    40%{content: "40+";}
+    50%{content: "50+";}
+    60%{content: "60+";}
+    70%{content: "70+";}
+    80%{content: "80+";}
+    90%{content: "90+";}
+    100%{content: "100+";}
+  }

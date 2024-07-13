@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/output.css">
+    <!-- <script src="https://cdn.tailwindcss.com"> </script > -->
+
+</head>
+
+<body>
+    <nav>
+        <div class="container p-5 flex justify-between aitems-center m-auto">
+            <img src="./imgs/Logo.png" width="100" alt="logo">
+            <ul class="flex justify-evenly md:gap-10 gap-2 font-semibold items-center text-[#545454]">
+                <li class="text-[#1F1F1F]"><a href="#home">Home</a> </li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#support">Support</a></li>
+            </ul>
+            <button class="bg-black text-white sm:py-4 sm:px-10 lg:py-2 lg:px-5 font-medium text-sm rounded">
+                Sign Up
+            </button>
+        </div>
+    </nav>
+
+
+    <section id="home" class="mt-5 container flex md:flex-row flex-col justify-center items-start m-auto p-5">
+        <article class="flex flex-col justify-around gap-10 items-start mt-5">
+            <h1 class="text-8xl font-medium ">Interior Design</h1>
+            <p class="font-medium text-[20px] md:w-3/4 w-full text-[#545454] ">Step into a world where the art of
+                Interior Design is
+                meticulously crafted to bring together timeless elegance and cutting-edge modern Innovation, Allowing
+                you to transform your
+                living spaces into the epitome of luxury and
+                sophistication </p>
+            <button class="bg-[#1F1F1F] py-3 w-1/5 px-4 text-white mt-5 rounded font-medium">Start Project</button>
+            <div class="grid gap-4 grid-cols-3 lg:gap-10 text-[#545454] mt-5">
+                <div class="">
+                    <p class="text-3xl project-num"></p>
+                    <span class="text-sm font-medium">Project Complete</span>
+                </div>
+                <div>
+                    <p class="text-3xl Client-num"></p>
+                    <span class="text-sm font-medium">Satisfied Clients</span>
+                </div>
+                <div>
+                    <p class="text-3xl Stylies-num"></p>
+                    <span class="text-sm font-medium">Unique Styles</span>
+                </div>
+            </div>
+        </article>
+
+        <div class="w-full flex flex-col justify-center items-start gap-y-8  mt-7 ">
+            <img src="imgs/Image 1.png" class="lg:w-[75%] md:w-full sm:w-[80%] ms-auto" alt="img">
+            <div class="  relative mt-2 md:translate-x-[-20%] ">
+                <img src="./imgs/Image 2.png" class="w-[full] relative z-20" alt="img">
+                <div
+                    class="border-2  border-[#1F1F1F] md:translate-x-[-20px] md:translate-y-[-23px] rounded absolute top-[0]  lg:h-[140px] lg:w-[140px] md:w-[100px] md:h-[100px] z-10">
+                </div>
+                <div
+                    class=" bg-[#1F1F1F] flex justify-center items-center absolute end-0 bottom-0 lg:translate-x-[75%] z-20  lg:w-[110px] lg:h-[120px] md:w-[50px] md:h-[50px] h-[0] translate-x-[25%]">
+                    <i class="fa-solid fa-arrow-down-long text-white lg:text-3xl md:text-xl "></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="services" class="container m-auto py-10 px-5 mt-10 ">
+        <div class="flex justify-start items-center gap-x-5">
+            <div class="w-[100px] h-[3px] bg-black"></div>
+            <h2 class="text-[45px] font-semibold text-[#1F1F1F]">Our Services</h2>
+        </div>
+        <div class="w-full md:flex sm:flex-row justify-between items-center gap-5  mt-10 px-5 ">
+            <div class="flex justify-center items-start gap-10 mb-4 md:mb-0">
+                <i class="fa-regular fa-lightbulb text-3xl"></i>
+                <div>
+                    <h3 class="text-[24px] text-[#1F1F1F] font-semibold ">Lighting Design</h3>
+                    <p class="text-[#545454] text-sm font-medium"> Achieve the perfect
+                        balance of ambient, task, and accent lighting for a functional atmosphere[</p>
+                </div>
+
+            </div>
+            <div class="flex justify-center items-start gap-10 mb-4 md:mb-0">
+                <i class="fa-solid fa-briefcase text-3xl"></i>
+                <div>
+                    <h3 class="text-[24px] text-[#1F1F1F] font-semibold ">Interior Design</h3>
+                    <p class="text-[#545454] text-sm font-medium">From concept to completion, we oversee every
+                        detail to bring your vision to life efficiently</p>
+                </div>
+
+            </div>
+            <div class="flex justify-center items-start gap-10 mb-4 md:mb-0">
+                <i class="fa-solid fa-tree text-3xl"></i>
+                <div>
+                    <h3 class="text-[24px] text-[#1F1F1F] font-semibold ">Outdoor Design</h3>
+                    <p class="text-[#545454] text-sm font-medium">Celebrate the changing seasons with our seasonal
+                        outdoor decor services</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="support" class="grid grid-cols-1 lg:grid-cols-2 lg:gap-8 px-5 py-10 mt-10 container gap-4 ">
+        <div class="  ">
+            <img src="./imgs/Mask group.png" alt="img">
+        </div>
+
+        <div class=" ">
+            <h2 class="text-[45px] font-semibold ">Designing Your Dream With Brilliance</h2>
+            <P class="text-sm font-medium text-[#545454] mt-5 w-full">Elevate your spaces with bespoke interior
+                designs that reflect your unique style and aspirations, crafted
+                with precision and brilliance for an unforgettable living experience</P>
+            <div class="flex justify-between items-center mt-10">
+                <h3 class="text-[20px] text-[#1F1F1F] mb-4 font-semibold">Living Room Interior Design</h3>
+                <i class="fa-solid fa-plus text-2xl cursor-pointer"></i>
+            </div>
+            <hr>
+            <div class="flex justify-between items-center mt-10">
+                <h3 class="text-[20px] text-[#1F1F1F] mb-4 font-semibold">Commercial Office Room Interior Design</h3>
+                <i class="fa-solid fa-plus text-2xl cursor-pointer"></i>
+            </div>
+            <hr>
+            <button class="p-5 bg-[#1F1F1F] font-semibold rounded text-white mt-5">Learn More</button>
+        </div>
+    </section>
+
+
+    <section class="grid grid-cols-1 lg:grid-cols-2 lg:gap-8 container mt-10 py-10 px-5 gap-4 ">
+        <div class="">
+            <h2 class="text-[45px] font-semibold text-[#1F1F1F]">Designing Your Dream in Three Simple Steps</h2>
+            <div class="">
+                <div class="flex mt-4 justify-start items-start gap-10">
+                    <div class="flex flex-col justify-center  items-center  gap-8">
+                        <i class="fa-solid fa-rocket text-2xl py-2 px-3  rounded-full bg-[#1F1F1F] text-white"></i>
+                        <span class="w-[1px] h-[80px] bg-[#9B9B9B] "></span>
+                    </div>
+                    <div>
+                        <h3 class="text-[24px] font-bold ">Start Project</h3>
+                        <p class="text-sm font-medium mt-4 text-[#545454]">Embark on your design adventure by
+                            initiating your project. Share your vision and set the
+                            stage for a bespoke design experience</p>
+                    </div>
+                </div>
+                <div class="flex mt-4 justify-start items-start gap-10">
+                    <div class="flex flex-col justify-center  items-center  gap-8">
+                        <i class="fa-regular fa-lightbulb py-2 px-4  text-2xl rounded-full bg-[#1F1F1F] text-white"></i>
+                        <span class="w-[1px] h-[80px] bg-[#9B9B9B] "></span>
+                    </div>
+                    <div>
+                        <h3 class="text-[25px] font-bold ">Craft</h3>
+                        <p class="text-sm font-medium mt-4 text-[#545454]">Collaborate closely to achieve design
+                            excellence refining your vision and crafting brilliance into every aspect of your space</p>
+                    </div>
+                </div>
+                <div class="flex mt-4 justify-start items-start gap-10">
+                    <div class="">
+                        <i
+                            class="fa-regular fa-circle-check py-2 px-3  text-2xl rounded-full bg-[#1F1F1F] text-white"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-[25px] font-bold ">Execute</h3>
+                        <p class="text-sm font-medium mt-4 text-[#545454]">Witness your vision becoming a reality as
+                            we execute the design plan with precision. Celebrate the joy of your newly transformed space
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <img src="./imgs/Image.png" class="ms-auto" width="100%" alt="img">
+        </div>
+    </section>
+
+
+    <section class="py-10 px-5 relative container grid grid-cols-1 lg:grid-cols-2 lg:gap-8 gap-4 ">
+        <div class=" ms-0">
+            <img src="./imgs/Mask group (1).png" width="100%" alt="img">
+            <div class="mt-4 space-x-8">
+                <i class="fa-solid fa-arrow-left-long p-5 bg-[#F1F1F1] text-[#464646]"></i>
+                <i class="fa-solid fa-arrow-right-long p-5 bg-[#F1F1F1] text-[#464646]"></i>
+            </div>
+        </div>
+        <div class="ms-auto ">
+            <h2 class="text-[45px] font-semibold ">What Our Customers Say About Us</h2>
+
+        </div>
+        <div
+            class="md:absolute md:start-56 md:end-10 md:top-52 md:bottom-10 grid grid-cols-1 lg:grid-cols-2 lg:gap-8 gap-4 mt-5 ">
+            <div class="p-5 bg-[#1F1F1F] text-white rounded flex justify-around flex-col">
+                <i class="fa-solid fa-quote-left text-6xl"></i>
+                <p class="text-[19px] font-medium">Working with your design team was an absolute pleasure. The
+                    attention to detail and creativity
+                    exceeded my expectations. Thank you for making my home beautiful!</p>
+                <div class="flex justify-between items-center gap-5 px-4">
+                    <img src="./imgs/Mask group (2).png" class="rounded-full" alt="">
+                    <div class="text-[18px] font-medium text-white">
+                        <h5>Sophie Carter</h5>
+                        <p class="text-sm font-medium text-[#929292]">New York, USA</p>
+                    </div>
+                </div>
+            </div>
+            <div class="p-5 bg-[#1F1F1F] text-white rounded flex flex-col justify-around ">
+                <i class="fa-solid fa-quote-left text-6xl"></i>
+                <p class="text-[18px] font-medium">Working with your design team was an absolute pleasure. The
+                    attention to detail and creativity
+                    exceeded my expectations. Thank you for making my home beautiful!</p>
+                <div class="flex justify-between items-center gap-5 px-4">
+                    <img src="./imgs/Mask group (2).png" class="rounded-full" alt="">
+                    <div class="text-[18px] font-medium text-white">
+                        <h5>Sophie Carter</h5>
+                        <p class="text-sm font-medium text-[#929292]">New York, USA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container py-5 flex flex-col justify-center items-center mt-10">
+        <div class="w-3/4 m-auto text-center">
+            <h2 class="text-[40px] font-bold">Subscribe to Our Newsletter for Design Insights</h2>
+            <p class="text-sm text-[#545454] font-medium">Be the first to discover trends, inspirations, and special
+                offers as we bring the world of design
+                directly to
+                your inbox</p>
+        </div>
+
+    </section>
+
+
+    <footer id="contact" class="py-5  bg-[#1F1F1F] text-white mt-12">
+        <div class="bg-white w-1/2 m-auto p-2 flex justify-between items-center rounded translate-y-[-75%] shadow-2xl"
+            style="box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.213);">
+            <input type="email" class=" w-3/4 placeholder:border-white focus:placeholder:border-white p-2"
+                placeholder="  Enter your email address">
+            <button class="bg-black px-5 py-3 text-[20px] font-medium rounded ms-3">Subscirbe</button>
+        </div>
+        <div class="container">
+            <div class="py-10 grid grid-cols-2 gap-4 lg:grid-cols-4 lg:gap-4">
+                <div class="flex flex-col justify-between items-start gap-5">
+                    <img src="./imgs/logo,d.png" alt="logo">
+                    <h5 class="text-sm font-medium text-[#D1D1D1]">VivaDecor your premier destination for luxury and
+                        modern interior design</h5>
+                    <div class="flex mt-5 justify-start gap-5 items-center">
+                        <i class="fa-brands fa-facebook-f p-2 bg-[#313131] "></i>
+                        <i class="fa-brands fa-twitter p-2 bg-[#313131]"></i>
+                        <i class="fa-brands fa-instagram p-2 bg-[#313131]"></i>
+                        <i class="fa-brands fa-linkedin-in p-2 bg-[#313131]"></i>
+                    </div>
+                </div>
+
+                <div class="">
+                    <ul class="flex flex-col text-sm font-semibold text-[#D1D1D1] justify-around gap-4 items-start">
+                        <li class="text-2xl  font-semibold">Our Services</li>
+                        <li class=" "> <a href=""> Interior design</a></li>
+                        <li class=" "> <a href="">Outdoor design</a></li>
+                        <li class=" "><a href="">Lightning design</a></li>
+                        <li class=" "><a href="">Office design</a></li>
+                    </ul>
+                </div>
+                <div class="">
+                    <ul class="flex flex-col font-semibold text-sm text-[#D1D1D1] justify-around gap-4 items-start">
+                        <li class="text-2xl  ">Our Services</li>
+                        <li class=" "> <a href="">Reviews</a></li>
+                        <li class=" "> <a href="">Careers</a></li>
+                        <li class=" "><a href="">Pricing</a></li>
+                        <li class=" "><a href="">Press inquires</a></li>
+                    </ul>
+                </div>
+                <div class="">
+                    <ul class="flex flex-col text-sm font-semibold text-[#D1D1D1] justify-around gap-4 items-start">
+                        <li class="text-2xl">Our Services</li>
+                        <li class=" "> <a href="">info@vivadecor.com</a></li>
+                        <li class=""> <a href="">Design Avenue Cityville, CA 90210 United States</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="scrollToTopBtn fixed cursor-pointer bottom-5 end-5 z-20 ">
+        <i class="fa-solid fa-circle-up text-2xl rounded-sm p-2 bg-slate-900 text-white"></i>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
